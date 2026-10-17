@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard">
+
+        <!-- Header -->
+        <header class="header">
+            <h1>School Dashboard</h1>
+            <p>Admin Panel</p>
+        </header>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="school-name">
+                <div class="school-icon">S</div>
+                <div>
+                    <h2>School Portal</h2>
+                    <p>Management System</p>
+                </div>
+            </div>
+
+            <p class="menu-title">MAIN MENU</p>
+
+            <nav class="navigation">
+                <a href="#" class="active">
+                    <span>⌂</span> Overview
+                </a>
+                <a href="#">
+                    <span>♙</span> Students
+                </a>
+                <a href="#">
+                    <span>♧</span> Teachers
+                </a>
+                <a href="#">
+                    <span>▤</span> Reports
+                </a>
+                <a href="#">
+                    <span>⚙</span> Settings
+                </a>
+            </nav>
+
+            <div class="sidebar-note">
+                <p>Have a great day!</p>
+                <small>Keep learning, keep growing.</small>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+
+            <div class="page-heading">
+                <div>
+                    <h2>Overview</h2>
+                    <p>Here is what's happening at your school today.</p>
+                </div>
+                <div class="date-label">School Year 2026</div>
+            </div>
+
+            <!-- Statistics -->
+            <section class="stats">
+
+                <article class="stat-card">
+                    <div class="stat-top">
+                        <span>Total Students</span>
+                        <div class="stat-icon blue">♙</div>
+                    </div>
+                    <h3>450</h3>
+                    <p>Registered students</p>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-top">
+                        <span>Total Teachers</span>
+                        <div class="stat-icon green">♧</div>
+                    </div>
+                    <h3>28</h3>
+                    <p>Teaching staff</p>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-top">
+                        <span>Total Classes</span>
+                        <div class="stat-icon orange">▤</div>
+                    </div>
+                    <h3>16</h3>
+                    <p>Active classrooms</p>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-top">
+                        <span>Attendance</span>
+                        <div class="stat-icon purple">✓</div>
+                    </div>
+                    <h3>92%</h3>
+                    <p>Today's attendance</p>
+                </article>
+
+            </section>
+
+            <!-- Main Dashboard Grid -->
+            <section class="content-grid">
+
+                <!-- Result Chart -->
+                <article class="panel chart-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>Monthly Result Chart</h3>
+                            <p>Student performance overview</p>
+                        </div>
+                        <span class="chart-tag">2026</span>
+                    </div>
+
+                    <div class="chart">
+                        <div class="chart-column">
+                            <div class="bar bar-1"></div>
+                            <span>Jan</span>
+                        </div>
+                        <div class="chart-column">
+                            <div class="bar bar-2"></div>
+                            <span>Feb</span>
+                        </div>
+                        <div class="chart-column">
+                            <div class="bar bar-3"></div>
+                            <span>Mar</span>
+                        </div>
+                        <div class="chart-column">
+                            <div class="bar bar-4"></div>
+                            <span>Apr</span>
+                        </div>
+                        <div class="chart-column">
+                            <div class="bar bar-5"></div>
+                            <span>May</span>
+                        </div>
+                        <div class="chart-column">
+                            <div class="bar bar-6"></div>
+                            <span>Jun</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recent Activity -->
+                <article class="panel activity-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>Recent Activity</h3>
+                            <p>Latest school updates</p>
+                        </div>
+                    </div>
+
+                    <ul class="activity-list">
+                        <li>
+                            <span class="activity-dot blue-dot"></span>
+                            <div>
+                                <strong>New admission</strong>
+                                <p>A new student was registered.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="activity-dot green-dot"></span>
+                            <div>
+                                <strong>Attendance updated</strong>
+                                <p>Today's attendance is complete.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="activity-dot orange-dot"></span>
+                            <div>
+                                <strong>Results uploaded</strong>
+                                <p>Monthly results are available.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="activity-dot purple-dot"></span>
+                            <div>
+                                <strong>Class schedule</strong>
+                                <p>The timetable was updated.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="activity-dot blue-dot"></span>
+                            <div>
+                                <strong>New notice</strong>
+                                <p>A school notice was published.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- School Notices -->
+                <article class="panel notice-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>School Notices</h3>
+                            <p>Important announcements</p>
+                        </div>
+                    </div>
+
+                    <div class="notice-item">
+                        <div class="notice-number">01</div>
+                        <div>
+                            <h4>Monthly Tests</h4>
+                            <p>Monthly tests will start next week. Students should prepare accordingly.</p>
+                        </div>
+                    </div>
+
+                    <div class="notice-item">
+                        <div class="notice-number">02</div>
+                        <div>
+                            <h4>School Holiday</h4>
+                            <p>School will remain closed on Sunday. Regular classes will resume on Monday.</p>
+                        </div>
+                    </div>
+                </article>
+
+            </section>
+
+            <!-- Student Table -->
+            <section class="panel students-panel">
+                <div class="panel-heading">
+                    <div>
+                        <h3>Student Results</h3>
+                        <p>Recent student performance</p>
+                    </div>
+                    <span class="total-label">4 Students</span>
+                </div>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>Class</th>
+                                <th>Marks</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ayesha Khan</td>
+                                <td>Class 5</td>
+                                <td><span class="marks">85 / 100</span></td>
+                            </tr>
+                            <tr>
+                                <td>Fatima Ali</td>
+                                <td>Class 4</td>
+                                <td><span class="marks">90 / 100</span></td>
+                            </tr>
+                            <tr>
+                                <td>Ahmed Raza</td>
+                                <td>Class 5</td>
+                                <td><span class="marks">78 / 100</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hassan Ahmed</td>
+                                <td>Class 3</td>
+                                <td><span class="marks">88 / 100</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 School Dashboard. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
